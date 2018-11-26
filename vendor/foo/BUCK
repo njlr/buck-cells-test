@@ -1,0 +1,14 @@
+prebuilt_cxx_library(
+  name = 'foo', 
+  header_namespace = '', 
+  header_only = True, 
+  exported_headers = [
+    'foo.hpp', 
+  ], 
+  deps = [
+    'vendor-bar//:bar', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

@@ -1,0 +1,9 @@
+[project]
+  ignore = .git
+
+[cxx]
+  should_remap_host_platform = true
+
+[repositories]
+  vendor-foo = ./vendor/foo
+  vendor-bar = ./vendor/foo/vendor/bar

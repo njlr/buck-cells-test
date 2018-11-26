@@ -1,0 +1,5 @@
+[cxx]
+  should_remap_host_platform = true
+
+[repositories]
+  vendor-bar = ./vendor/bar
